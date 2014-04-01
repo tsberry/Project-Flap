@@ -23,7 +23,7 @@ class ScageAppTest extends TestCase("app") {
      * Rigourous Tests :-)
      */
     def testOK() = {
-      hello.main(Array[String]())
+      flappy.main(Array[String]())
       assertTrue(true)
     };
     //def testKO() = assertTrue(false);
