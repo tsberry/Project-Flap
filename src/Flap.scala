@@ -1,3 +1,0 @@
-class Flap {
-//Hey there!
-}
