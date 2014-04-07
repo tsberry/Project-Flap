@@ -39,14 +39,14 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   
   interface{
     if(!onPause) print((ObstacleCreator.point).toInt, 7*(windowWidth/8), 7*(windowHeight/8), BLACK)
-    else print("Game over! Your score was " + ObstacleCreator.point + "points", windowWidth/2- 200, windowHeight/2, BLACK)
+    else print("Game over! Your score was " + ObstacleCreator.point + " points", windowWidth/2- 200, windowHeight/2, BLACK)
   }
  }
 
 import World._
 
 object flapper extends DynaBox(Vec(400, 300), 70, 70, 1, false){
-  val flap_image = image("sat.png", 70, 70,0,0,290,442)
+  val flap_image = image("Sat.png", 70, 70,0,0,290,442)
   init {
     coord = Vec(400, 300)
     val velocity = Vec(0, 0)
