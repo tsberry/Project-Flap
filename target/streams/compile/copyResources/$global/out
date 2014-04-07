@@ -1,0 +1,14 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\logback.xml,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\maven.properties,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\maven.properties)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\fonts,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\fonts)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\fonts\DroidSans.ttf,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\fonts\DroidSans.ttf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images\botPencil.jpg,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\botPencil.jpg)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images\botPencil.png,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\botPencil.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images\class.jpg,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\class.jpg)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images\Sat.png,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\Sat.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images\scage-logo.png,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\scage-logo.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images\topPencil.jpg,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\topPencil.jpg)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Thomas\workspace\FlappySat\src\main\resources\resources\images\topPencil.png,C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\topPencil.png)[0m

@@ -1,0 +1,73 @@
+[0m[[0minfo[0m] [0mRunning World [0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,767 [INFO ] loaded property file maven.properties from jar[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,817 [INFO ] AppProperties loaded[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,828 [WARN ] failed to find property render.ticks[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,829 [INFO ] default value for property render.ticks is 60[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,829 [WARN ] failed to find property render.frameskip[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,829 [INFO ] default value for property render.frameskip is 5[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,829 [WARN ] failed to find property render.framerate[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,830 [INFO ] default value for property render.framerate is 0[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,844 [INFO ] starting main screen Project Flap...[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,849 [WARN ] failed to find property images.base[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,850 [INFO ] default value for property images.base is resources/images/[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,879 [WARN ] failed to find property render.vsync[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:25,880 [INFO ] default value for property render.vsync is false[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,152 [INFO ] initialized opengl system[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,153 [WARN ] failed to find property fonts.base[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,153 [INFO ] default value for property fonts.base is resources/fonts/[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,154 [WARN ] failed to find property font.file[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,154 [INFO ] default value for property font.file is DroidSans.ttf[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,155 [WARN ] failed to find property font.max_size[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,155 [INFO ] default value for property font.max_size is 18.0[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,155 [WARN ] failed to find property font.glyph.from[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,155 [INFO ] default value for property font.glyph.from is 1024[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,156 [WARN ] failed to find property font.glyph.to[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,156 [INFO ] default value for property font.glyph.to is 1279[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,158 [WARN ] failed to find property xml.lang[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,158 [INFO ] default value for property xml.lang is en[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,158 [WARN ] failed to find property xml.strings.base[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,161 [DEBUG] read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,161 [INFO ] default value for property xml.strings.base is resources/strings/${project.artifactid}_strings[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,161 [WARN ] failed to find property xml.interfaces.base[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,161 [DEBUG] read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,161 [INFO ] default value for property xml.interfaces.base is resources/interfaces/${project.artifactid}_interfaces[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,162 [DEBUG] parsing xml messages from file resources/strings/${project.artifactid}_strings_en.xml[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,168 [INFO ] default value for string id renderer.loading is Loading...[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:26,198 [DEBUG] loading font resources/fonts/DroidSans.ttf...[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:27,481 [WARN ] failed to find property screen.scagelogo[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:27,481 [INFO ] default value for property screen.scagelogo is true[0m
+[0m[[0minfo[0m] [0mMon Apr 07 15:38:27 PDT 2014 INFO:Use Java PNG Loader = true[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:28,530 [WARN ] failed to find property screen.splash[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:28,530 [INFO ] default value for property screen.splash is empty string[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:28,530 [INFO ] default value for string id app.welcome is empty string[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:28,536 [DEBUG] read property images.base: resources/images/[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,687 [WARN ] failed to find property physics.dt[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,688 [INFO ] default value for property physics.dt is 5[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,732 [DEBUG] added new physical flapper$@1fd0d1[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,734 [INFO ] Project Flap: preinit[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,736 [INFO ] Project Flap: init[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,737 [INFO ] inits: 1; actions: 3; clears: 0[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,737 [INFO ] Project Flap: run[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,745 [DEBUG] added new physical Obstacle@1dac0d9[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:29,746 [DEBUG] added new physical Obstacle@aaf8f2[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:31,371 [DEBUG] added new physical Obstacle@138dd3f[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:31,371 [DEBUG] added new physical Obstacle@458d2b[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:33,003 [DEBUG] added new physical Obstacle@12c29c2[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:33,003 [DEBUG] added new physical Obstacle@69929e[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:34,635 [DEBUG] added new physical Obstacle@423419[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:34,635 [DEBUG] added new physical Obstacle@6a88bb[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:36,266 [DEBUG] added new physical Obstacle@bf7a4d[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:36,267 [DEBUG] added new physical Obstacle@f686da[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:37,899 [DEBUG] added new physical Obstacle@10f7074[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:37,900 [DEBUG] added new physical Obstacle@9fd765[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:39,530 [DEBUG] added new physical Obstacle@1f64801[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:39,530 [DEBUG] added new physical Obstacle@1f17314[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:41,163 [DEBUG] added new physical Obstacle@ba2f40[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:41,163 [DEBUG] added new physical Obstacle@1741426[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:41,419 [INFO ] pause = true[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:41,421 [DEBUG] deleted operation with id 10010 from the container actions[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:44,497 [INFO ] default value for string id renderer.exiting is Exiting...[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:45,499 [INFO ] Project Flap: clear[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:45,500 [INFO ] Project Flap: dispose[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:45,517 [INFO ] destroyed opengl system[0m
+[0m[[0minfo[0m] [0m2014-04-07 15:38:45,517 [INFO ] Project Flap was stopped[0m
