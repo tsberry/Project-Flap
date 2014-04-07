@@ -6,3 +6,5 @@ scalaVersion := "2.10.2"
 
 seq(scageSettings: _*)
 
+exportJars := true
+

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for project-flap#project-flap_2.10;0.0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies project-flap#project-flap_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f68bf7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32a67bb8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
@@ -56,7 +56,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.0!logback-classic.pom(pom.original) (347ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.0!logback-classic.pom(pom.original) (342ms)[0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.0.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-parent;1.0.0[0m
@@ -65,7 +65,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.dunnololda#cli_2.10.1;1.2->ch.qos.logback#logback-classic;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46187[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21eef1dc[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.0[0m
 [0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.0 in sbt-chain[0m
@@ -983,15 +983,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.0!logback-classic.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.0!logback-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.lwjgl#lwjgl-native;2.8.2!lwjgl-native.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Thomas\.ivy2\local\phys2d\phys2d\060408\jars\phys2d.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/phys2d/phys2d/060408/phys2d-060408.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/phys2d/phys2d/060408/phys2d-060408.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://raw.github.com/dunnololda/mvn-repo/master/phys2d/phys2d/060408/phys2d-060408.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://raw.github.com/dunnololda/mvn-repo/master/phys2d/phys2d/060408/phys2d-060408.jar ...[0m
-[0m[[0mdebug[0m] [0m	dunnololda's maven repo: downloading https://raw.github.com/dunnololda/mvn-repo/master/phys2d/phys2d/060408/phys2d-060408.jar[0m
-[0m[[0mdebug[0m] [0m	dunnololda's maven repo: downloading https://raw.github.com/dunnololda/mvn-repo/master/phys2d/phys2d/060408/phys2d-060408.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://raw.github.com/dunnololda/mvn-repo/master/phys2d/phys2d/060408/phys2d-060408.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] phys2d#phys2d;060408!phys2d.jar (665ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] phys2d#phys2d;060408!phys2d.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.jnlp#jnlp;1.2!jnlp.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] ibxm#ibxm;unknown!ibxm.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jcraft#jogg;0.0.7!jogg.jar[0m
@@ -1000,7 +992,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1418ms :: artifacts dl 823ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5424ms :: artifacts dl 54ms[0m
 [0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT compile produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT runtime produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT test produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-test.xml[0m
@@ -1014,5 +1006,5 @@
 [0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT docs produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT pom produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT scala-tool produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1418ms resolve - 823ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (5424ms resolve - 54ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
