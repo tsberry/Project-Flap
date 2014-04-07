@@ -6,6 +6,8 @@
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\World$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	World$$anonfun$3.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\World$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	resources\fonts\FreeMono.ttf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\fonts\FreeMono.ttf[0m
 [0m[[0mdebug[0m] [0m	flapper$.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\flapper$.class[0m
 [0m[[0mdebug[0m] [0m	resources\images\topPencil.jpg[0m
@@ -30,10 +32,14 @@
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\topPencil.png[0m
 [0m[[0mdebug[0m] [0m	World$$anonfun$4.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\World$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	resources\fonts\comic.ttf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\fonts\comic.ttf[0m
+[0m[[0mdebug[0m] [0m	resources\fonts\DejaVuLGCSans-ExtraLight.ttf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\fonts\DejaVuLGCSans-ExtraLight.ttf[0m
 [0m[[0mdebug[0m] [0m	World.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\World.class[0m
-[0m[[0mdebug[0m] [0m	maven.properties[0m
-[0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\maven.properties[0m
+[0m[[0mdebug[0m] [0m	resources\fonts\cour.ttf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\fonts\cour.ttf[0m
 [0m[[0mdebug[0m] [0m	flapper$$anonfun$9.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\flapper$$anonfun$9.class[0m
 [0m[[0mdebug[0m] [0m	World$delayedInit$body.class[0m
@@ -60,8 +66,6 @@
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\fonts\DroidSans.ttf[0m
 [0m[[0mdebug[0m] [0m	resources\images\scage-logo.png[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\resources\images\scage-logo.png[0m
-[0m[[0mdebug[0m] [0m	logback.xml[0m
-[0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\logback.xml[0m
 [0m[[0mdebug[0m] [0m	ObstacleCreator.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\Thomas\workspace\FlappySat\target\scala-2.10\classes\ObstacleCreator.class[0m
 [0m[[0mdebug[0m] [0m	World$.class[0m
