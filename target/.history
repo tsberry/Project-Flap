@@ -13,3 +13,10 @@ exit
 compile
 run
 package
+reload
+compile
+run
+package
+run
+exit
+run

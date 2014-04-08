@@ -1,89 +1,75 @@
 [0m[[0minfo[0m] [0mRunning World [0m
-[0m[[0minfo[0m] [0m17:07:11.833 [main] INFO  c.g.dunnololda.cli.AppProperties$ - loaded property file maven.properties from jar[0m
-[0m[[0minfo[0m] [0m17:07:12.120 [main] INFO  c.g.dunnololda.cli.AppProperties$ - AppProperties loaded[0m
-[0m[[0minfo[0m] [0m17:07:12.186 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.ticks[0m
-[0m[[0minfo[0m] [0m17:07:12.189 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.ticks is 60[0m
-[0m[[0minfo[0m] [0m17:07:12.191 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.frameskip[0m
-[0m[[0minfo[0m] [0m17:07:12.192 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.frameskip is 5[0m
-[0m[[0minfo[0m] [0m17:07:12.194 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.framerate[0m
-[0m[[0minfo[0m] [0m17:07:12.195 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.framerate is 0[0m
-[0m[[0minfo[0m] [0m17:07:12.240 [main] INFO  World$ - starting main screen Project Flap...[0m
-[0m[[0minfo[0m] [0m17:07:12.262 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property images.base[0m
-[0m[[0minfo[0m] [0m17:07:12.262 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property images.base is resources/images/[0m
-[0m[[0minfo[0m] [0m17:07:12.342 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.vsync[0m
-[0m[[0minfo[0m] [0m17:07:12.343 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.vsync is false[0m
-[0m[[0minfo[0m] [0m17:07:12.737 [main] INFO  c.g.d.scage.handlers.RendererLib$ - initialized opengl system[0m
-[0m[[0minfo[0m] [0m17:07:12.738 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property fonts.base[0m
-[0m[[0minfo[0m] [0m17:07:12.738 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property fonts.base is resources/fonts/[0m
-[0m[[0minfo[0m] [0m17:07:12.738 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.file[0m
-[0m[[0minfo[0m] [0m17:07:12.738 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.file is DroidSans.ttf[0m
-[0m[[0minfo[0m] [0m17:07:12.740 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.max_size[0m
-[0m[[0minfo[0m] [0m17:07:12.740 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.max_size is 18.0[0m
-[0m[[0minfo[0m] [0m17:07:12.740 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.from[0m
-[0m[[0minfo[0m] [0m17:07:12.740 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.from is 1024[0m
-[0m[[0minfo[0m] [0m17:07:12.740 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.to[0m
-[0m[[0minfo[0m] [0m17:07:12.741 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.to is 1279[0m
-[0m[[0minfo[0m] [0m17:07:12.774 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.lang[0m
-[0m[[0minfo[0m] [0m17:07:12.774 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.lang is en[0m
-[0m[[0minfo[0m] [0m17:07:12.774 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.strings.base[0m
-[0m[[0minfo[0m] [0m17:07:12.775 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
-[0m[[0minfo[0m] [0m17:07:12.775 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.strings.base is resources/strings/${project.artifactid}_strings[0m
-[0m[[0minfo[0m] [0m17:07:12.776 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.interfaces.base[0m
-[0m[[0minfo[0m] [0m17:07:12.776 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
-[0m[[0minfo[0m] [0m17:07:12.776 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.interfaces.base is resources/interfaces/${project.artifactid}_interfaces[0m
-[0m[[0minfo[0m] [0m17:07:12.778 [main] DEBUG c.g.d.s.support.messages.ScageXML$ - parsing xml messages from file resources/strings/${project.artifactid}_strings_en.xml[0m
-[0m[[0minfo[0m] [0m17:07:12.807 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.loading is Loading...[0m
-[0m[[0minfo[0m] [0m17:07:12.826 [main] DEBUG c.g.d.s.s.messages.ScageMessage$ - loading font resources/fonts/DroidSans.ttf...[0m
-[0m[[0minfo[0m] [0m17:07:14.251 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.scagelogo[0m
-[0m[[0minfo[0m] [0m17:07:14.251 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.scagelogo is true[0m
-[0m[[0minfo[0m] [0mMon Apr 07 17:07:14 PDT 2014 INFO:Use Java PNG Loader = true[0m
-[0m[[0minfo[0m] [0m17:07:15.458 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.splash[0m
-[0m[[0minfo[0m] [0m17:07:15.458 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.splash is empty string[0m
-[0m[[0minfo[0m] [0m17:07:15.459 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id app.welcome is empty string[0m
-[0m[[0minfo[0m] [0m17:07:15.481 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property images.base: resources/images/[0m
-[0m[[0minfo[0m] [0m17:07:16.889 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property physics.dt[0m
-[0m[[0minfo[0m] [0m17:07:16.889 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property physics.dt is 5[0m
-[0m[[0minfo[0m] [0m17:07:16.932 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical flapper$@732c4b84[0m
-[0m[[0minfo[0m] [0m17:07:16.934 [main] INFO  World$ - Project Flap: preinit[0m
-[0m[[0minfo[0m] [0m17:07:16.936 [main] INFO  World$ - Project Flap: init[0m
-[0m[[0minfo[0m] [0m17:07:16.937 [main] INFO  World$ - inits: 1; actions: 3; clears: 0[0m
-[0m[[0minfo[0m] [0m17:07:16.937 [main] INFO  World$ - Project Flap: run[0m
-[0m[[0minfo[0m] [0m17:07:16.946 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@10f23791[0m
-[0m[[0minfo[0m] [0m17:07:16.946 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@e1e1948[0m
-[0m[[0minfo[0m] [0m17:07:18.572 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@7ca7700a[0m
-[0m[[0minfo[0m] [0m17:07:18.573 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@54ace075[0m
-[0m[[0minfo[0m] [0m17:07:20.205 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@5e8b2438[0m
-[0m[[0minfo[0m] [0m17:07:20.206 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@f70906[0m
-[0m[[0minfo[0m] [0m17:07:21.835 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@4bbf593b[0m
-[0m[[0minfo[0m] [0m17:07:21.836 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@7f7b5756[0m
-[0m[[0minfo[0m] [0m17:07:23.470 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@7d083fe3[0m
-[0m[[0minfo[0m] [0m17:07:23.471 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@289a9036[0m
-[0m[[0minfo[0m] [0m17:07:25.101 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@3930b5bd[0m
-[0m[[0minfo[0m] [0m17:07:25.101 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@2ceba8a0[0m
-[0m[[0minfo[0m] [0m17:07:26.733 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@6df0e581[0m
-[0m[[0minfo[0m] [0m17:07:26.733 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@626bb08a[0m
-[0m[[0minfo[0m] [0m17:07:28.366 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@4e95c40[0m
-[0m[[0minfo[0m] [0m17:07:28.367 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@74a77044[0m
-[0m[[0minfo[0m] [0m17:07:29.997 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@1cbbbc31[0m
-[0m[[0minfo[0m] [0m17:07:29.998 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@694043b3[0m
-[0m[[0minfo[0m] [0m17:07:31.628 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@7a5079e1[0m
-[0m[[0minfo[0m] [0m17:07:31.630 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@3971e183[0m
-[0m[[0minfo[0m] [0m17:07:33.261 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@7d38fe2b[0m
-[0m[[0minfo[0m] [0m17:07:33.267 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - removed physical Obstacle@10f23791[0m
-[0m[[0minfo[0m] [0m17:07:33.268 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@635d6591[0m
-[0m[[0minfo[0m] [0m17:07:33.268 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - removed physical Obstacle@e1e1948[0m
-[0m[[0minfo[0m] [0m17:07:34.892 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@402425cb[0m
-[0m[[0minfo[0m] [0m17:07:34.893 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - removed physical Obstacle@7ca7700a[0m
-[0m[[0minfo[0m] [0m17:07:34.894 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@52d5353[0m
-[0m[[0minfo[0m] [0m17:07:34.895 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - removed physical Obstacle@54ace075[0m
-[0m[[0minfo[0m] [0m17:07:36.523 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@7c9c93b6[0m
-[0m[[0minfo[0m] [0m17:07:36.523 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - removed physical Obstacle@5e8b2438[0m
-[0m[[0minfo[0m] [0m17:07:36.583 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@ba5d1a4[0m
-[0m[[0minfo[0m] [0m17:07:36.583 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - removed physical Obstacle@f70906[0m
-[0m[[0minfo[0m] [0m17:07:36.893 [main] INFO  World$ - pause = true[0m
-[0m[[0minfo[0m] [0m17:07:36.895 [main] DEBUG World$ - deleted operation with id 10010 from the container actions[0m
-[0m[[0minfo[0m] [0m17:07:39.171 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.exiting is Exiting...[0m
-[0m[[0minfo[0m] [0m17:07:40.175 [main] INFO  World$ - Project Flap: clear[0m
-[0m[[0minfo[0m] [0m17:07:40.179 [main] INFO  World$ - Project Flap: dispose[0m
-[0m[[0minfo[0m] [0m17:07:40.250 [main] INFO  c.g.d.scage.handlers.RendererLib$ - destroyed opengl system[0m
-[0m[[0minfo[0m] [0m17:07:40.252 [main] INFO  World$ - Project Flap was stopped[0m
+[0m[[0minfo[0m] [0m21:19:40.701 [main] INFO  c.g.dunnololda.cli.AppProperties$ - loaded property file maven.properties from jar[0m
+[0m[[0minfo[0m] [0m21:19:40.949 [main] INFO  c.g.dunnololda.cli.AppProperties$ - AppProperties loaded[0m
+[0m[[0minfo[0m] [0m21:19:41.000 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.ticks[0m
+[0m[[0minfo[0m] [0m21:19:41.002 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.ticks is 60[0m
+[0m[[0minfo[0m] [0m21:19:41.004 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.frameskip[0m
+[0m[[0minfo[0m] [0m21:19:41.004 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.frameskip is 5[0m
+[0m[[0minfo[0m] [0m21:19:41.006 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.framerate[0m
+[0m[[0minfo[0m] [0m21:19:41.006 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.framerate is 0[0m
+[0m[[0minfo[0m] [0m21:19:41.054 [main] INFO  World$ - starting main screen Project Flap...[0m
+[0m[[0minfo[0m] [0m21:19:41.080 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property images.base[0m
+[0m[[0minfo[0m] [0m21:19:41.081 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property images.base is resources/images/[0m
+[0m[[0minfo[0m] [0m21:19:41.170 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.vsync[0m
+[0m[[0minfo[0m] [0m21:19:41.171 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.vsync is false[0m
+[0m[[0minfo[0m] [0m21:19:42.228 [main] INFO  c.g.d.scage.handlers.RendererLib$ - initialized opengl system[0m
+[0m[[0minfo[0m] [0m21:19:42.233 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property fonts.base[0m
+[0m[[0minfo[0m] [0m21:19:42.233 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property fonts.base is resources/fonts/[0m
+[0m[[0minfo[0m] [0m21:19:42.235 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.file[0m
+[0m[[0minfo[0m] [0m21:19:42.236 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.file is DroidSans.ttf[0m
+[0m[[0minfo[0m] [0m21:19:42.243 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.max_size[0m
+[0m[[0minfo[0m] [0m21:19:42.243 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.max_size is 18.0[0m
+[0m[[0minfo[0m] [0m21:19:42.246 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.from[0m
+[0m[[0minfo[0m] [0m21:19:42.247 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.from is 1024[0m
+[0m[[0minfo[0m] [0m21:19:42.249 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.to[0m
+[0m[[0minfo[0m] [0m21:19:42.250 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.to is 1279[0m
+[0m[[0minfo[0m] [0m21:19:42.262 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.lang[0m
+[0m[[0minfo[0m] [0m21:19:42.262 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.lang is en[0m
+[0m[[0minfo[0m] [0m21:19:42.265 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.strings.base[0m
+[0m[[0minfo[0m] [0m21:19:42.269 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m21:19:42.270 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.strings.base is resources/strings/${project.artifactid}_strings[0m
+[0m[[0minfo[0m] [0m21:19:42.273 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.interfaces.base[0m
+[0m[[0minfo[0m] [0m21:19:42.274 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m21:19:42.274 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.interfaces.base is resources/interfaces/${project.artifactid}_interfaces[0m
+[0m[[0minfo[0m] [0m21:19:42.281 [main] DEBUG c.g.d.s.support.messages.ScageXML$ - parsing xml messages from file resources/strings/${project.artifactid}_strings_en.xml[0m
+[0m[[0minfo[0m] [0m21:19:42.313 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.loading is Loading...[0m
+[0m[[0minfo[0m] [0m21:19:42.415 [main] DEBUG c.g.d.s.s.messages.ScageMessage$ - loading font resources/fonts/DroidSans.ttf...[0m
+[0m[[0minfo[0m] [0m21:19:44.731 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.scagelogo[0m
+[0m[[0minfo[0m] [0m21:19:44.731 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.scagelogo is true[0m
+[0m[[0minfo[0m] [0mMon Apr 07 21:19:44 PDT 2014 INFO:Use Java PNG Loader = true[0m
+[0m[[0minfo[0m] [0m21:19:45.891 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.splash[0m
+[0m[[0minfo[0m] [0m21:19:45.891 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.splash is empty string[0m
+[0m[[0minfo[0m] [0m21:19:45.892 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id app.welcome is empty string[0m
+[0m[[0minfo[0m] [0m21:19:45.914 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property images.base: resources/images/[0m
+[0m[[0minfo[0m] [0m21:19:50.375 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property physics.dt[0m
+[0m[[0minfo[0m] [0m21:19:50.376 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property physics.dt is 5[0m
+[0m[[0minfo[0m] [0m21:19:50.551 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical flapper$@278fc222[0m
+[0m[[0minfo[0m] [0m21:19:50.559 [main] INFO  World$ - Project Flap: preinit[0m
+[0m[[0minfo[0m] [0m21:19:50.566 [main] INFO  World$ - Project Flap: init[0m
+[0m[[0minfo[0m] [0m21:19:50.572 [main] INFO  World$ - inits: 1; actions: 3; clears: 0[0m
+[0m[[0minfo[0m] [0m21:19:50.576 [main] INFO  World$ - Project Flap: run[0m
+[0m[[0minfo[0m] [0m21:19:50.627 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@345541bd[0m
+[0m[[0minfo[0m] [0m21:19:50.627 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@494efa22[0m
+[0m[[0minfo[0m] [0m21:19:52.209 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@5894b866[0m
+[0m[[0minfo[0m] [0m21:19:52.209 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@bd65df9[0m
+[0m[[0minfo[0m] [0m21:19:53.839 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@55cd7d00[0m
+[0m[[0minfo[0m] [0m21:19:53.840 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@25c9b702[0m
+[0m[[0minfo[0m] [0m21:19:55.470 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@67003266[0m
+[0m[[0minfo[0m] [0m21:19:55.470 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@3decfb5e[0m
+[0m[[0minfo[0m] [0m21:19:57.103 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@5c533a2[0m
+[0m[[0minfo[0m] [0m21:19:57.104 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@55c0d3a3[0m
+[0m[[0minfo[0m] [0m21:19:58.737 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@68f59560[0m
+[0m[[0minfo[0m] [0m21:19:58.737 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@53220775[0m
+[0m[[0minfo[0m] [0m21:20:00.366 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@f76eb40[0m
+[0m[[0minfo[0m] [0m21:20:00.367 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@484ebeae[0m
+[0m[[0minfo[0m] [0m21:20:02.000 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@77e15ab9[0m
+[0m[[0minfo[0m] [0m21:20:02.001 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@6c0b652b[0m
+[0m[[0minfo[0m] [0m21:20:03.630 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@1bce3cee[0m
+[0m[[0minfo[0m] [0m21:20:03.631 [main] DEBUG c.g.d.s.support.physics.ScagePhysics - added new physical Obstacle@1023b85[0m
+[0m[[0minfo[0m] [0m21:20:03.889 [main] INFO  World$ - pause = true[0m
+[0m[[0minfo[0m] [0m21:20:03.908 [main] DEBUG World$ - deleted operation with id 10010 from the container actions[0m
+[0m[[0minfo[0m] [0m21:20:06.197 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.exiting is Exiting...[0m
+[0m[[0minfo[0m] [0m21:20:07.202 [main] INFO  World$ - Project Flap: clear[0m
+[0m[[0minfo[0m] [0m21:20:07.206 [main] INFO  World$ - Project Flap: dispose[0m
+[0m[[0minfo[0m] [0m21:20:07.275 [main] INFO  c.g.d.scage.handlers.RendererLib$ - destroyed opengl system[0m
+[0m[[0minfo[0m] [0m21:20:07.281 [main] INFO  World$ - Project Flap was stopped[0m
