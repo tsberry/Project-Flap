@@ -7,7 +7,7 @@
 		revision="0.0.1-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140407160902"/>
+		date="20140407170655"/>
 	<dependencies>
 		<module organisation="com.github.dunnololda.scage" name="scage">
 			<revision name="0.9.3-SNAPSHOT" status="integration" pubdate="20140407145815" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
@@ -200,7 +200,7 @@
 			<revision name="1.0.0" status="release" pubdate="20111101101821" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
-				<metadata-artifact status="successful" details="" size="13190" time="342" location="C:\Users\Thomas\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.0.0.xml" searched="true" original-local-location="C:\Users\Thomas\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom"/>
+				<metadata-artifact status="successful" details="" size="13190" time="366" location="C:\Users\Thomas\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.0.0.xml" searched="true" original-local-location="C:\Users\Thomas\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom"/>
 				<caller organisation="com.github.dunnololda" name="cli_2.10.1" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.2"/>
 				<artifacts>
 					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="246709" time="0" location="C:\Users\Thomas\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.0.0.jar">
@@ -223,21 +223,21 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.10.2" status="release" pubdate="20130606140543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="0">
+			<revision name="2.10.3" status="release" pubdate="20130927024454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="0">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
-				<metadata-artifact status="no" details="" size="2478" time="0" location="C:\Users\Thomas\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="file:////D:/Downloads/typesafe-activator-1.0.13/activator-1.0.13//repository/org.scala-lang/scala-library/2.10.2/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\Thomas\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom"/>
 				<caller organisation="com.github.dunnololda.scage" name="scage" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.9.3-SNAPSHOT"/>
 				<caller organisation="com.github.dunnololda" name="cli_2.10.1" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.2"/>
 				<caller organisation="org.scala-lang" name="scala-swing" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="2.10.1"/>
-				<caller organisation="project-flap" name="project-flap_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.0.1-SNAPSHOT"/>
+				<caller organisation="project-flap" name="project-flap_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7121818" time="0" location="C:\Users\Thomas\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.2.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="C:\Users\Thomas\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>
 					</artifact>
 				</artifacts>
 			</revision>
 			<revision name="2.10.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
-				<evicted-by rev="2.10.2"/>
+				<evicted-by rev="2.10.3"/>
 				<caller organisation="com.github.dunnololda.scage" name="scage" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.9.3-SNAPSHOT"/>
 				<caller organisation="com.github.dunnololda" name="cli_2.10.1" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.2"/>
 				<caller organisation="org.scala-lang" name="scala-swing" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="2.10.1"/>

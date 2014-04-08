@@ -1,11 +1,15 @@
 compile
 run
+package
+run
+package
+package -Pwebstart
+help
+help package
+help settings
+settings
+build
+exit
 compile
 run
-compile
-run
-compile
-run
-reload
-compile
-run
+package
