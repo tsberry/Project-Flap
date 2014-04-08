@@ -5,7 +5,7 @@ import com.github.dunnololda.scage.support.physics.objects.{DynaBox, StaticPolyg
 import com.github.dunnololda.scage.ScageScreenApp
 import com.github.dunnololda.scage.ScageLib._
 /*
-Filename: comp360-hw1-sharma.rkt
+ Filename: World.scala
 
   Author(s):
 
