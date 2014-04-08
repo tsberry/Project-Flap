@@ -4,7 +4,7 @@
 		module="project-flap_2.10"
 		revision="0.0.1-SNAPSHOT"
 		status="integration"
-		publication="20140407160902"
+		publication="20140407170655"
 	>
 		<description>
 		Project Flap
@@ -32,8 +32,8 @@
 		<artifact name="project-flap_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.2" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.github.dunnololda.scage" name="scage" rev="0.9.3-SNAPSHOT" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
