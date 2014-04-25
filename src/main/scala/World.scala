@@ -1,7 +1,5 @@
 import com.github.dunnololda.scage.support.Vec
 import collection.mutable.ArrayBuffer
-import com.github.dunnololda.scage.support.physics.{Physical, ScagePhysics}
-import com.github.dunnololda.scage.support.physics.objects.{DynaBox, StaticPolygon, DynaBall}
 import com.github.dunnololda.scage.ScageScreenApp
 import com.github.dunnololda.scage.ScageLib._
 /*
@@ -31,13 +29,10 @@ import com.github.dunnololda.scage.ScageLib._
 object World extends ScageScreenApp("Project Flap", 800, 600){
   backgroundColor = BLACK
   val classroom = image("class.jpg", 800, 600, 0, 0, 2700, 1800)
-  
   render{
     drawDisplayList(classroom, windowCenter) //displays the background
   }
-  
-  val physics = ScagePhysics(gravity = Vec(0, 0)) //initializes physics 
-  physics.addPhysical(flapper) //adds physics to the flapper
+  val flapper = new flapper()
 
   var collided = false //boolean flag used for handling collisions
 
@@ -45,10 +40,10 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
 //flag is raised, which will end the game.
   action {
     if(ObstacleCreator.botObstacles.length > 1) 
-      {if(((flapper.coord.x - 15 >= (ObstacleCreator.botObstacles.last.coord.x - 300) && flapper.coord.x - 15 <= (ObstacleCreator.botObstacles.last.coord.x - 250)) 
-          || (flapper.coord.x - 15>= (ObstacleCreator.botObstacles.last.coord.x -370) && flapper.coord.x - 15 <= (ObstacleCreator.botObstacles.last.coord.x - 320)))
-        && !(flapper.coord.y - 31 > ObstacleCreator.botObstacles.dropRight(1).last.coord.y && 
-            flapper.coord.y < (ObstacleCreator.botObstacles.dropRight(1).last.coord.y + 261))) collided = true
+      {if((flapper.coord.x + (flapper.width/2) >= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x) && flapper.coord.x + (flapper.width/2) <= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x + 50) 
+          || (flapper.coord.x - (flapper.width/2) >= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x) && flapper.coord.x - (flapper.width/2) <= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x + 50)))
+        && !(flapper.coord.y - (flapper.height/2) > ObstacleCreator.botObstacles.dropRight(1).last.coord.y && 
+            flapper.coord.y  + (flapper.height/2) < (ObstacleCreator.botObstacles.dropRight(1).last.coord.y + 300))) collided = true
   }}
   
   //The following updates the score, creates new objects, and checks if the 
@@ -76,12 +71,12 @@ import World._
 //The flapper object uses gravity that is implemented separately from Scage physics for 
 //purposes of clarity. The object handles the appearance of the flapper and the behavior of
 //the flapper (falling and flapping). The user can flap by using the space bar.
-object flapper extends DynaBox(Vec(400, 300), 70, 70, 1, false){
+class flapper {
   val flap_image = image("Sat.png", 70, 70,0,0,290,442)
-  init {
-    coord = Vec(400, 300) //initial position of the flapper 
-    val velocity = Vec(0, 0) //flapper starts at rest
-  }
+  val width = 70
+  val height = 70
+  var coord = Vec(400,300)
+  var velocity = Vec(0,0)
   //While the space bar is pressed, a constant acceleration much greater than
   //gravity is applied to the flapper. However, once the user releases the
   //space bar, the velocity is reset to zero. This unrealistic portion of
@@ -104,24 +99,22 @@ action {
 //The ObstacleCreator object handles the creation of obstacles (obviously) and scoring as well.
 object ObstacleCreator
 {
-  val botObstacles = ArrayBuffer[Physical]() //handles bottom obstacles
-  val topObstacles = ArrayBuffer[Physical]() //handles top obstacles
+  val botObstacles = ArrayBuffer[Obstacle]() //handles bottom obstacles
+  val topObstacles = ArrayBuffer[Obstacle]() //handles top obstacles
   var point = 0 //score counter
   var addedPoint = false //boolean flag used in scoring
   
   //adds a top obstacle to the ArrayBuffer and adds physics to it.
-  def addtopObstacle(obstacle:Physical)
+  def addtopObstacle(obstacle:Obstacle)
   {
-    physics.addPhysical(obstacle)
     topObstacles += obstacle
     //once the obstacle is off the screen it is removed
     if(topObstacles.length > 5) removetopObstacle()
   }
   
   //adds a bottom obstacle to the ArrayBuffer and adds physics to it.
-  def addbotObstacle(obstacle:Physical)
+  def addbotObstacle(obstacle:Obstacle)
   {
-    physics.addPhysical(obstacle)
     botObstacles += obstacle
     //once the obstacle is off the screen it is removed.
     if(botObstacles.length > 10) removebotObstacle()
@@ -131,14 +124,12 @@ object ObstacleCreator
   def removetopObstacle()
   {
     val obstacle = topObstacles.remove(0)
-    physics.removePhysicals(obstacle)
   }
   
   //removes a bottom obstacle from the beginning of the ArrayBuffer
   def removebotObstacle()
   {
     val obstacle = botObstacles.remove(0)
-    physics.removePhysicals(obstacle)
   }
   
   //generates a new obstacle once the most recent obstacle has moved 300
@@ -147,10 +138,10 @@ object ObstacleCreator
   {
   //If there are no obstacles, a new one is created. This occurs only at the beginning
   //of the game.
-    if(botObstacles.length == 0) generateObstacles((math.random*400).toFloat)
+    if(botObstacles.length == 0) generateObstacles((math.random*300).toFloat)
         else if(botObstacles.last.coord.x < 500) 
           {
-          generateObstacles((math.random*400).toFloat)//obstacle space has a random position
+          generateObstacles((math.random*300).toFloat)//obstacle space has a random position
           addedPoint = false
           }
   }
@@ -182,11 +173,10 @@ object ObstacleCreator
 //The Obstacle class defines the attribute of the obstacles. These attributes are the dimensions
 //of the obstacle, the color of the obstacle, and the velocity of the obstacle. Obstacle must be
 //a class because there are many instances of Obstacle used within the program.
-class Obstacle(init_coord:Vec, height:Float) extends DynaBox(init_coord, 50, height, 1, false)
+class Obstacle(init_coord:Vec, height:Float)
 {
-  init {
-    coord = init_coord //starting position of the obstacle
-  }
+  var coord = init_coord
+  val width = 50
   
   action {
     coord += Vec(-3, 0) //constant obstacle velocity
@@ -194,5 +184,5 @@ class Obstacle(init_coord:Vec, height:Float) extends DynaBox(init_coord, 50, hei
   
   render {
   //all obstacles are blue
-    drawFilledRect(coord, this.box_width, this.box_height, BLUE)}
+    drawFilledRect(coord, width, height, BLUE)}
   }
