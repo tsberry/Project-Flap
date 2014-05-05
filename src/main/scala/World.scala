@@ -27,14 +27,15 @@ import com.github.dunnololda.scage.ScageLib._
   //handling collisions, and rendering the flapper. Also, the World class calls many of 
   //the methods score(), and continue() that are define in the ObstacleCreator object.
 object World extends ScageScreenApp("Project Flap", 800, 600){
-  backgroundColor = BLACK
+    backgroundColor = BLACK
   val classroom = image("class.jpg", 800, 600, 0, 0, 2700, 1800)
   render{
     drawDisplayList(classroom, windowCenter) //displays the background
   }
-  val flapper = new flapper()
-
-  var collided = false //boolean flag used for handling collisions
+  var flapper = new flapper()
+  var ObstacleCreator = new ObstacleCreator()
+  var flapX = flapper.coord.x
+  var collide = false //boolean flag used for handling collisions
 
 //The following checks to see if the flapper is within the accepted bounds to continue. If not, the boolean
 //flag is raised, which will end the game.
@@ -43,34 +44,46 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
       {if((flapper.coord.x + (flapper.width/2) >= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x) && flapper.coord.x + (flapper.width/2) <= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x + 50) 
           || (flapper.coord.x - (flapper.width/2) >= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x) && flapper.coord.x - (flapper.width/2) <= (ObstacleCreator.botObstacles.dropRight(1).last.coord.x + 50)))
         && !(flapper.coord.y - (flapper.height/2) > ObstacleCreator.botObstacles.dropRight(1).last.coord.y && 
-            flapper.coord.y  + (flapper.height/2) < (ObstacleCreator.botObstacles.dropRight(1).last.coord.y + 300))) collided = true
+            flapper.coord.y  + (flapper.height/2) < (ObstacleCreator.botObstacles.dropRight(1).last.coord.y + 300))) collide = true
   }}
   
   //The following updates the score, creates new objects, and checks if the 
   //collision boolean is true.
   action {
-    ObstacleCreator.score()
-    ObstacleCreator.continue()
-    if(collided)
+    if(!collide)
+      {
+      ObstacleCreator.score()
+      ObstacleCreator.continue()
+      }
+    if(collide)
     {
       pause()
-      deleteSelf()//game over
+      //deleteSelf()//game over
     }
     }
 
   //Displays current score and will display the game-over message once the flapper has collided with
   //an obstacle
   interface{
-    if(!onPause) print((ObstacleCreator.point).toInt, 7*(windowWidth/8), 7*(windowHeight/8), BLACK)
+    if(!collide) print((ObstacleCreator.point).toInt, 7*(windowWidth/8), 7*(windowHeight/8), BLACK)
     else print("Game over! Your score was " + ObstacleCreator.point + " points", windowWidth/2- 200, windowHeight/2, BLACK)
   }
- }
+  
+  keyIgnorePause(KEY_A, onKeyDown =
+  {
+    flapper.reset()
+    ObstacleCreator.reset()
+    collide = false
+    pauseOff()
+  })
+}
 
 import World._
 
 //The flapper object uses gravity that is implemented separately from Scage physics for 
 //purposes of clarity. The object handles the appearance of the flapper and the behavior of
 //the flapper (falling and flapping). The user can flap by using the space bar.
+
 class flapper {
   val flap_image = image("Sat.png", 70, 70,0,0,290,442)
   val width = 70
@@ -85,7 +98,7 @@ class flapper {
       velocity += (Vec(0, 25)), onKeyUp = velocity = (Vec(0, 0)))
  
   render {
-    drawDisplayList(flap_image, coord) //keeps flapper and its image in sync
+    if(!collide) drawDisplayList(flap_image, coord) //keeps flapper and its image in sync
   }
   
 action {
@@ -94,13 +107,19 @@ action {
     //This is consistent with physics
     coord += velocity 
   }
+
+def reset()
+{
+  coord = Vec(400,300)
+  velocity = Vec(0,0)
+  }
 }
 
 //The ObstacleCreator object handles the creation of obstacles (obviously) and scoring as well.
-object ObstacleCreator
+class ObstacleCreator
 {
-  val botObstacles = ArrayBuffer[Obstacle]() //handles bottom obstacles
-  val topObstacles = ArrayBuffer[Obstacle]() //handles top obstacles
+  var botObstacles = ArrayBuffer[Obstacle]() //handles bottom obstacles
+  var topObstacles = ArrayBuffer[Obstacle]() //handles top obstacles
   var point = 0 //score counter
   var addedPoint = false //boolean flag used in scoring
   
@@ -117,19 +136,21 @@ object ObstacleCreator
   {
     botObstacles += obstacle
     //once the obstacle is off the screen it is removed.
-    if(botObstacles.length > 10) removebotObstacle()
+    if(botObstacles.length > 5) removebotObstacle()
   }
   
   //removes a top obstacle from the beginning of the ArrayBuffer
   def removetopObstacle()
   {
-    val obstacle = topObstacles.remove(0)
+    val obst = topObstacles.remove(0)
+    obst.removed = true
   }
   
   //removes a bottom obstacle from the beginning of the ArrayBuffer
   def removebotObstacle()
   {
-    val obstacle = botObstacles.remove(0)
+    val obst = botObstacles.remove(0)
+    obst.removed = true
   }
   
   //generates a new obstacle once the most recent obstacle has moved 300
@@ -152,7 +173,7 @@ object ObstacleCreator
   {
     if(botObstacles.length > 1)
     {
-    if(flapper.coord.x >= botObstacles.dropRight(1).last.coord.x + 50 && !addedPoint)
+    if(flapX >= botObstacles.dropRight(1).last.coord.x + 50 && !addedPoint)
     {
       point += 1
       addedPoint = true
@@ -163,10 +184,19 @@ object ObstacleCreator
   def generateObstacles(height:Float)
   {
     val secondY = (windowHeight - height - 300) //constant spacing between top and bottom
-    val obst1 = new Obstacle(Vec(windowWidth, windowHeight), height)
-    val obst2 = new Obstacle(Vec(windowWidth, secondY), windowHeight)
-    addtopObstacle(obst1)
-    addbotObstacle(obst2)
+    addtopObstacle(new Obstacle(Vec(windowWidth, windowHeight), height))
+    addbotObstacle(new Obstacle(Vec(windowWidth, secondY), windowHeight))
+  }
+  
+  def reset()
+  {
+    for(i <- 0 until botObstacles.length)
+      {
+        removebotObstacle()
+        removetopObstacle()
+      }
+    point = 0
+    addedPoint = false
   }
   }
 
@@ -177,12 +207,15 @@ class Obstacle(init_coord:Vec, height:Float)
 {
   var coord = init_coord
   val width = 50
+  var removed = false
   
   action {
     coord += Vec(-3, 0) //constant obstacle velocity
+    if(removed) deleteSelf()
   }
   
   render {
   //all obstacles are blue
-    drawFilledRect(coord, width, height, BLUE)}
-  }
+    if(!removed) drawFilledRect(coord, width, height, BLUE)
+    }
+}
