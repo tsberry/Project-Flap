@@ -1,91 +1,69 @@
 [0m[[0minfo[0m] [0mRunning World [0m
-[0m[[0minfo[0m] [0m13:08:27.762 [main] INFO  c.g.dunnololda.cli.AppProperties$ - loaded property file maven.properties from jar[0m
-[0m[[0minfo[0m] [0m13:08:27.845 [main] INFO  c.g.dunnololda.cli.AppProperties$ - AppProperties loaded[0m
-[0m[[0minfo[0m] [0m13:08:27.861 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.ticks[0m
-[0m[[0minfo[0m] [0m13:08:27.862 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.ticks is 60[0m
-[0m[[0minfo[0m] [0m13:08:27.863 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.frameskip[0m
-[0m[[0minfo[0m] [0m13:08:27.863 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.frameskip is 5[0m
-[0m[[0minfo[0m] [0m13:08:27.863 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.framerate[0m
-[0m[[0minfo[0m] [0m13:08:27.864 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.framerate is 0[0m
-[0m[[0minfo[0m] [0m13:08:27.880 [main] INFO  World$ - starting main screen Project Flap...[0m
-[0m[[0minfo[0m] [0m13:08:27.890 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property images.base[0m
-[0m[[0minfo[0m] [0m13:08:27.890 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property images.base is resources/images/[0m
-[0m[[0minfo[0m] [0m13:08:27.918 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.vsync[0m
-[0m[[0minfo[0m] [0m13:08:27.918 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.vsync is false[0m
-[0m[[0minfo[0m] [0m13:08:28.224 [main] INFO  c.g.d.scage.handlers.RendererLib$ - initialized opengl system[0m
-[0m[[0minfo[0m] [0m13:08:28.225 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property fonts.base[0m
-[0m[[0minfo[0m] [0m13:08:28.225 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property fonts.base is resources/fonts/[0m
-[0m[[0minfo[0m] [0m13:08:28.226 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.file[0m
-[0m[[0minfo[0m] [0m13:08:28.226 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.file is DroidSans.ttf[0m
-[0m[[0minfo[0m] [0m13:08:28.227 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.max_size[0m
-[0m[[0minfo[0m] [0m13:08:28.227 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.max_size is 18.0[0m
-[0m[[0minfo[0m] [0m13:08:28.228 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.from[0m
-[0m[[0minfo[0m] [0m13:08:28.228 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.from is 1024[0m
-[0m[[0minfo[0m] [0m13:08:28.228 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.to[0m
-[0m[[0minfo[0m] [0m13:08:28.228 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.to is 1279[0m
-[0m[[0minfo[0m] [0m13:08:28.231 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.lang[0m
-[0m[[0minfo[0m] [0m13:08:28.231 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.lang is en[0m
-[0m[[0minfo[0m] [0m13:08:28.231 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.strings.base[0m
-[0m[[0minfo[0m] [0m13:08:28.232 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
-[0m[[0minfo[0m] [0m13:08:28.232 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.strings.base is resources/strings/${project.artifactid}_strings[0m
-[0m[[0minfo[0m] [0m13:08:28.233 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.interfaces.base[0m
-[0m[[0minfo[0m] [0m13:08:28.233 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
-[0m[[0minfo[0m] [0m13:08:28.233 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.interfaces.base is resources/interfaces/${project.artifactid}_interfaces[0m
-[0m[[0minfo[0m] [0m13:08:28.234 [main] DEBUG c.g.d.s.support.messages.ScageXML$ - parsing xml messages from file resources/strings/${project.artifactid}_strings_en.xml[0m
-[0m[[0minfo[0m] [0m13:08:28.241 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.loading is Loading...[0m
-[0m[[0minfo[0m] [0m13:08:28.263 [main] DEBUG c.g.d.s.s.messages.ScageMessage$ - loading font resources/fonts/DroidSans.ttf...[0m
-[0m[[0minfo[0m] [0m13:08:29.692 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.scagelogo[0m
-[0m[[0minfo[0m] [0m13:08:29.692 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.scagelogo is true[0m
-[0m[[0minfo[0m] [0mMon May 05 13:08:29 PDT 2014 INFO:Use Java PNG Loader = true[0m
-[0m[[0minfo[0m] [0m13:08:30.858 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.splash[0m
-[0m[[0minfo[0m] [0m13:08:30.858 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.splash is empty string[0m
-[0m[[0minfo[0m] [0m13:08:30.859 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id app.welcome is empty string[0m
-[0m[[0minfo[0m] [0m13:08:30.882 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property images.base: resources/images/[0m
-[0m[[0minfo[0m] [0m13:08:32.261 [main] INFO  World$ - Project Flap: preinit[0m
-[0m[[0minfo[0m] [0m13:08:32.264 [main] INFO  World$ - Project Flap: init[0m
-[0m[[0minfo[0m] [0m13:08:32.265 [main] INFO  World$ - inits: 0; actions: 3; clears: 0[0m
-[0m[[0minfo[0m] [0m13:08:32.266 [main] INFO  World$ - Project Flap: run[0m
-[0m[[0minfo[0m] [0m13:08:35.876 [main] INFO  World$ - pause = true[0m
-[0m[[0minfo[0m] [0m13:08:37.320 [main] INFO  World$ - pause = false[0m
-[0m[[0minfo[0m] [0m13:08:37.325 [main] DEBUG World$ - deleted operation with id 10013 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:37.326 [main] DEBUG World$ - deleted operation with id 10015 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:37.326 [main] DEBUG World$ - deleted operation with id 10017 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:37.326 [main] DEBUG World$ - deleted operation with id 10019 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:37.327 [main] DEBUG World$ - deleted operation with id 10021 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:37.327 [main] DEBUG World$ - deleted operation with id 10023 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:45.469 [main] DEBUG World$ - deleted operation with id 10025 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:45.469 [main] DEBUG World$ - deleted operation with id 10027 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:47.100 [main] DEBUG World$ - deleted operation with id 10029 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:47.101 [main] DEBUG World$ - deleted operation with id 10031 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:48.731 [main] DEBUG World$ - deleted operation with id 10033 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:48.732 [main] DEBUG World$ - deleted operation with id 10035 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:50.362 [main] DEBUG World$ - deleted operation with id 10037 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:50.363 [main] DEBUG World$ - deleted operation with id 10039 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:51.997 [main] DEBUG World$ - deleted operation with id 10041 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:51.998 [main] DEBUG World$ - deleted operation with id 10043 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:53.626 [main] DEBUG World$ - deleted operation with id 10045 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:53.627 [main] DEBUG World$ - deleted operation with id 10047 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:55.258 [main] DEBUG World$ - deleted operation with id 10049 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:55.259 [main] DEBUG World$ - deleted operation with id 10051 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:56.892 [main] DEBUG World$ - deleted operation with id 10053 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:56.892 [main] DEBUG World$ - deleted operation with id 10055 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:58.522 [main] DEBUG World$ - deleted operation with id 10057 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:58.523 [main] DEBUG World$ - deleted operation with id 10059 from the container actions[0m
-[0m[[0minfo[0m] [0m13:08:59.083 [main] INFO  World$ - pause = true[0m
-[0m[[0minfo[0m] [0m13:09:00.874 [main] INFO  World$ - pause = false[0m
-[0m[[0minfo[0m] [0m13:09:00.874 [main] DEBUG World$ - deleted operation with id 10061 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.875 [main] DEBUG World$ - deleted operation with id 10063 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.875 [main] DEBUG World$ - deleted operation with id 10065 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.876 [main] DEBUG World$ - deleted operation with id 10067 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.876 [main] DEBUG World$ - deleted operation with id 10069 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.876 [main] DEBUG World$ - deleted operation with id 10071 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.876 [main] DEBUG World$ - deleted operation with id 10073 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.877 [main] DEBUG World$ - deleted operation with id 10075 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.877 [main] DEBUG World$ - deleted operation with id 10077 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:00.877 [main] DEBUG World$ - deleted operation with id 10079 from the container actions[0m
-[0m[[0minfo[0m] [0m13:09:08.346 [main] INFO  World$ - pause = true[0m
-[0m[[0minfo[0m] [0m13:09:10.422 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.exiting is Exiting...[0m
-[0m[[0minfo[0m] [0m13:09:11.427 [main] INFO  World$ - Project Flap: clear[0m
-[0m[[0minfo[0m] [0m13:09:11.431 [main] INFO  World$ - Project Flap: dispose[0m
-[0m[[0minfo[0m] [0m13:09:11.477 [main] INFO  c.g.d.scage.handlers.RendererLib$ - destroyed opengl system[0m
-[0m[[0minfo[0m] [0m13:09:11.479 [main] INFO  World$ - Project Flap was stopped[0m
+[0m[[0minfo[0m] [0m15:14:23.156 [main] INFO  c.g.dunnololda.cli.AppProperties$ - loaded property file maven.properties from jar[0m
+[0m[[0minfo[0m] [0m15:14:23.208 [main] INFO  c.g.dunnololda.cli.AppProperties$ - AppProperties loaded[0m
+[0m[[0minfo[0m] [0m15:14:23.220 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.ticks[0m
+[0m[[0minfo[0m] [0m15:14:23.220 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.ticks is 60[0m
+[0m[[0minfo[0m] [0m15:14:23.220 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.frameskip[0m
+[0m[[0minfo[0m] [0m15:14:23.220 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.frameskip is 5[0m
+[0m[[0minfo[0m] [0m15:14:23.221 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.framerate[0m
+[0m[[0minfo[0m] [0m15:14:23.221 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.framerate is 0[0m
+[0m[[0minfo[0m] [0m15:14:23.230 [main] INFO  World$ - starting main screen Project Flap...[0m
+[0m[[0minfo[0m] [0m15:14:23.237 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property images.base[0m
+[0m[[0minfo[0m] [0m15:14:23.237 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property images.base is resources/images/[0m
+[0m[[0minfo[0m] [0m15:14:23.486 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property render.vsync[0m
+[0m[[0minfo[0m] [0m15:14:23.486 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property render.vsync is false[0m
+[0m[[0minfo[0m] [0m15:14:24.739 [main] INFO  c.g.d.scage.handlers.RendererLib$ - initialized opengl system[0m
+[0m[[0minfo[0m] [0m15:14:24.740 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property fonts.base[0m
+[0m[[0minfo[0m] [0m15:14:24.740 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property fonts.base is resources/fonts/[0m
+[0m[[0minfo[0m] [0m15:14:24.740 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.file[0m
+[0m[[0minfo[0m] [0m15:14:24.740 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.file is DroidSans.ttf[0m
+[0m[[0minfo[0m] [0m15:14:24.741 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.max_size[0m
+[0m[[0minfo[0m] [0m15:14:24.741 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.max_size is 18.0[0m
+[0m[[0minfo[0m] [0m15:14:24.742 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.from[0m
+[0m[[0minfo[0m] [0m15:14:24.742 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.from is 1024[0m
+[0m[[0minfo[0m] [0m15:14:24.742 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property font.glyph.to[0m
+[0m[[0minfo[0m] [0m15:14:24.742 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property font.glyph.to is 1279[0m
+[0m[[0minfo[0m] [0m15:14:24.744 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.lang[0m
+[0m[[0minfo[0m] [0m15:14:24.744 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.lang is en[0m
+[0m[[0minfo[0m] [0m15:14:24.744 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.strings.base[0m
+[0m[[0minfo[0m] [0m15:14:24.745 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m15:14:24.745 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.strings.base is resources/strings/${project.artifactid}_strings[0m
+[0m[[0minfo[0m] [0m15:14:24.745 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property xml.interfaces.base[0m
+[0m[[0minfo[0m] [0m15:14:24.745 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m15:14:24.745 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property xml.interfaces.base is resources/interfaces/${project.artifactid}_interfaces[0m
+[0m[[0minfo[0m] [0m15:14:24.746 [main] DEBUG c.g.d.s.support.messages.ScageXML$ - parsing xml messages from file resources/strings/${project.artifactid}_strings_en.xml[0m
+[0m[[0minfo[0m] [0m15:14:24.750 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.loading is Loading...[0m
+[0m[[0minfo[0m] [0m15:14:24.766 [main] DEBUG c.g.d.s.s.messages.ScageMessage$ - loading font resources/fonts/DroidSans.ttf...[0m
+[0m[[0minfo[0m] [0m15:14:27.739 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.scagelogo[0m
+[0m[[0minfo[0m] [0m15:14:27.740 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.scagelogo is true[0m
+[0m[[0minfo[0m] [0mTue May 06 15:14:27 PDT 2014 INFO:Use Java PNG Loader = true[0m
+[0m[[0minfo[0m] [0m15:14:28.778 [main] WARN  c.g.dunnololda.cli.AppProperties$ - failed to find property screen.splash[0m
+[0m[[0minfo[0m] [0m15:14:28.778 [main] INFO  c.g.dunnololda.cli.AppProperties$ - default value for property screen.splash is empty string[0m
+[0m[[0minfo[0m] [0m15:14:28.778 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id app.welcome is empty string[0m
+[0m[[0minfo[0m] [0m15:14:28.786 [main] DEBUG c.g.dunnololda.cli.AppProperties$ - read property images.base: resources/images/[0m
+[0m[[0minfo[0m] [0m15:14:29.682 [main] INFO  World$ - Project Flap: preinit[0m
+[0m[[0minfo[0m] [0m15:14:29.684 [main] INFO  World$ - Project Flap: init[0m
+[0m[[0minfo[0m] [0m15:14:29.685 [main] INFO  World$ - inits: 0; actions: 3; clears: 0[0m
+[0m[[0minfo[0m] [0m15:14:29.685 [main] INFO  World$ - Project Flap: run[0m
+[0m[[0minfo[0m] [0m15:14:37.847 [main] DEBUG World$ - deleted operation with id 10012 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:37.847 [main] DEBUG World$ - deleted operation with id 10014 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:39.478 [main] DEBUG World$ - deleted operation with id 10016 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:39.478 [main] DEBUG World$ - deleted operation with id 10018 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:39.863 [main] INFO  World$ - pause = true[0m
+[0m[[0minfo[0m] [0m15:14:41.755 [main] INFO  World$ - pause = false[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10020 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10022 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10024 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10026 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10028 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10030 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10032 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10034 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.766 [main] DEBUG World$ - deleted operation with id 10036 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:41.767 [main] DEBUG World$ - deleted operation with id 10038 from the container actions[0m
+[0m[[0minfo[0m] [0m15:14:43.734 [main] INFO  World$ - pause = true[0m
+[0m[[0minfo[0m] [0m15:14:44.278 [main] INFO  c.g.d.s.support.messages.ScageXML$ - default value for string id renderer.exiting is Exiting...[0m
+[0m[[0minfo[0m] [0m15:14:45.281 [main] INFO  World$ - Project Flap: clear[0m
+[0m[[0minfo[0m] [0m15:14:45.282 [main] INFO  World$ - Project Flap: dispose[0m
+[0m[[0minfo[0m] [0m15:14:45.299 [main] INFO  c.g.d.scage.handlers.RendererLib$ - destroyed opengl system[0m
+[0m[[0minfo[0m] [0m15:14:45.299 [main] INFO  World$ - Project Flap was stopped[0m
