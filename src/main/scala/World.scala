@@ -2,6 +2,7 @@ import com.github.dunnololda.scage.support.Vec
 import collection.mutable.ArrayBuffer
 import com.github.dunnololda.scage.ScageScreenApp
 import com.github.dunnololda.scage.ScageLib._
+import java.io._
 /*
  Filename: World.scala
 
@@ -36,8 +37,9 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   var Flapper = new Flapper()
   var ObstacleCreator = new ObstacleCreator()
   var flapX = Flapper.coord.x
+  var menu = new menu()
   var collide = false //boolean flag used for handling collisions
-
+  pause()
 //The following checks to see if the flapper is within the accepted bounds to 
 //continue. If not, the boolean flag is raised, which will end the game.
   action {
@@ -69,6 +71,9 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
     if(collide)
     {
       pause()//game over
+      //Flapper.toggle()
+      //ObstacleCreator.toggle()
+      writeScore()
     }
     }
 
@@ -89,6 +94,46 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
     collide = false
     pauseOff()
   })
+  
+  def writeScore()
+  {
+    val scoreArray = new Array[Int](10)
+    val writer = new PrintWriter(new FileWriter("scores.txt"))
+    val reader = new BufferedReader(new FileReader("scores.txt"))
+    var line = reader.readLine()
+    val score = ObstacleCreator.point
+    var i = 0
+    while(line != null)
+    {
+      scoreArray(i) = line.toInt
+      i += 1
+      line = reader.readLine()
+    }
+    bubbleSort(scoreArray)
+    if(score > scoreArray(0)) scoreArray(0) = score
+    bubbleSort(scoreArray)
+    for(i <- 0 until 9) writer.println(scoreArray(i))
+    writer.close()
+    reader.close()
+  }
+  
+  def bubbleSort(a : Array[Int]) // Basic very bad search algorithm
+   {
+       var swapped = false;
+       do{
+         swapped = false;
+         for(i <- 1 until a.length-1)
+         {
+            if(a(i-1) > a(i))
+            {
+               swapped = true;
+               var temp = a(i);
+               a(i) = a(i-1);
+               a(i-1) = temp;
+            }
+         }
+      } while(swapped)
+   }
 }
 
 

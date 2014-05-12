@@ -35,6 +35,7 @@ class Flapper {
   val height = 70
   var coord = Vec(400,300)
   var velocity = Vec(0,0)
+  var pause = true
   //While the space bar is pressed, a constant acceleration much greater than
   //gravity is applied to the flapper. However, once the user releases the
   //space bar, the velocity is reset to zero. This unrealistic portion of

@@ -1,11 +1,11 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/}project-flap-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#project-flap-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Thomas/workspace/FlappySat/project/}flappysat-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#flappysat-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdon't use cache for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT: changing=true[0m
@@ -18,21 +18,12 @@
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mvallerie/sbt-scage-plugin/scala_2.10/sbt_0.13/0.1-SNAPSHOT/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0mdon't use cache for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m		tried /Users/NealSharma/.ivy2/local/com.github.mvallerie/sbt-scage-plugin/scala_2.10/sbt_0.13/0.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/mvallerie/sbt-scage-plugin/0.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/github/mvallerie/sbt-scage-plugin/0.1-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/mvallerie/sbt-scage-plugin_2.10_0.13/0.1-SNAPSHOT/sbt-scage-plugin-0.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/mvallerie/sbt-scage-plugin_2.10_0.13/0.1-SNAPSHOT/sbt-scage-plugin-0.1-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	public: no ivy file found for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/com.github.mvallerie/sbt-scage-plugin/scala_2.10/sbt_0.13/0.1-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-snapshots: found md file for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/com.github.mvallerie/sbt-scage-plugin/scala_2.10/sbt_0.13/0.1-SNAPSHOT/ivys/ivy.xml (0.1-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Thomas\.ivy2\local\com.github.mvallerie\sbt-scage-plugin\scala_2.10\sbt_0.13\0.1-SNAPSHOT\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: found md file for com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> C:\Users\Thomas\.ivy2\local\com.github.mvallerie\sbt-scage-plugin\scala_2.10\sbt_0.13\0.1-SNAPSHOT\ivys\ivy.xml (0.1-SNAPSHOT)[0m
 [0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	found com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0[0m
@@ -80,10 +71,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -106,11 +97,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -133,18 +124,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33d88c1f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16f88474[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.1 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.1[0m
@@ -674,12 +665,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-sbt#interface;0.13.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -707,13 +698,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
@@ -1027,11 +1018,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-sbt#interface;0.13.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -1053,14 +1044,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -1088,13 +1079,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
@@ -1408,18 +1399,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-sbt#interface;0.13.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#project-flap-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#flappysat-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
@@ -1437,8 +1428,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
@@ -1453,12 +1444,12 @@
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#project-flap-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/default/project-flap-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#flappysat-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\default\flappysat-build\scala_2.10\sbt_0.13\0.1-SNAPSHOT\resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mvallerie#sbt-scage-plugin;0.1-SNAPSHOT!sbt-scage-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0!sbteclipse-plugin.jar[0m
@@ -1513,19 +1504,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.1!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3089ms :: artifacts dl 44ms[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT compile produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT runtime produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT test produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT provided produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT optional produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT compile-internal produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT runtime-internal produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT test-internal produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT plugin produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT sources produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT docs produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT pom produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#project-flap-build;0.1-SNAPSHOT scala-tool produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/project/target/resolution-cache/reports/default-project-flap-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3089ms resolve - 44ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6004ms :: artifacts dl 1141ms[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT compile produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT runtime produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT test produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT provided produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT optional produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT test-internal produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT plugin produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT sources produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT docs produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT pom produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#flappysat-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Thomas\workspace\FlappySat\project\target\resolution-cache\reports\default-flappysat-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (6004ms resolve - 1141ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

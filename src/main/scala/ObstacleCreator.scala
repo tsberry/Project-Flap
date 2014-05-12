@@ -31,6 +31,7 @@ class ObstacleCreator
   var topObstacles = ArrayBuffer[Obstacle]() //handles top obstacles
   var point = 0 //score counter
   var addedPoint = false //boolean flag used in scoring
+  var pause = true
   
   //adds a top obstacle to the ArrayBuffer and adds physics to it.
   def addtopObstacle(obstacle:Obstacle)
@@ -68,7 +69,7 @@ class ObstacleCreator
   {
   //If there are no obstacles, a new one is created. This occurs only at the 
   //beginning of the game.
-    if(botObstacles.length == 0) generateObstacles((math.random*300).toFloat)
+      if(botObstacles.length == 0) generateObstacles((math.random*300).toFloat)
         else if(botObstacles.last.coord.x < 500) 
           {
           generateObstacles((math.random*300).toFloat)//obstacle space has a 
