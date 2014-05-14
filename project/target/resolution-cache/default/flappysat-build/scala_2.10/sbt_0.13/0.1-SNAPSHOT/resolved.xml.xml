@@ -4,7 +4,7 @@
 		module="flappysat-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140407151344"
+		publication="20140510125140"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
