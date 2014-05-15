@@ -39,6 +39,7 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   var flapX = Flapper.coord.x
   var menu = new menu()
   var collide = false //boolean flag used for handling collisions
+  val scoreArray = Array(0,0,0,0,0,0,0,0,0,0)
   pause()
 //The following checks to see if the flapper is within the accepted bounds to 
 //continue. If not, the boolean flag is raised, which will end the game.
@@ -73,67 +74,89 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
       pause()//game over
       //Flapper.toggle()
       //ObstacleCreator.toggle()
-      writeScore()
+        getScores()
+        writeScore()
     }
     }
 
   //Displays current score and will display the game-over message once the 
   //flapper has collided with an obstacle.
   interface{
-    if(!collide) 
+    if(!collide && !(menu.menuIsOn || menu.scoresIsOn)) 
     print((ObstacleCreator.point).toInt, 7*(windowWidth/8), 7*(windowHeight/8),
      BLACK)
-    else print("Game over! Your score was " + ObstacleCreator.point + 
-    " points", windowWidth/2- 200, windowHeight/2, BLACK)
+    if(collide)
+      {
+      print("Game over! Your score was " + ObstacleCreator.point + 
+              " points", windowWidth/2- 200, windowHeight/2, BLACK)
+      //print(scoreArray(0), windowWidth/2 - 200, windowHeight/2 - 20, BLACK)
+      
+      }
+
   }
   
   keyIgnorePause(KEY_A, onKeyDown =
   {
+    if(!(menu.menuIsOn || menu.scoresIsOn))
+    {
     Flapper.reset()
     ObstacleCreator.reset()
     collide = false
     pauseOff()
+    }
   })
   
-  def writeScore()
+  def getScores()
   {
-    val scoreArray = new Array[Int](10)
-    val writer = new PrintWriter(new FileWriter("scores.txt"))
     val reader = new BufferedReader(new FileReader("scores.txt"))
     var line = reader.readLine()
-    val score = ObstacleCreator.point
-    var i = 0
-    while(line != null)
+    //var i = 0
+    for(i <- 0 until 10)
     {
       scoreArray(i) = line.toInt
-      i += 1
+     // i += 1
       line = reader.readLine()
     }
     bubbleSort(scoreArray)
-    if(score > scoreArray(0)) scoreArray(0) = score
-    bubbleSort(scoreArray)
-    for(i <- 0 until 9) writer.println(scoreArray(i))
-    writer.close()
     reader.close()
   }
+  def writeScore()
+  {
+    val writer = new PrintWriter(new FileWriter("scores.txt"))
+    val score = ObstacleCreator.point
+    if(score > scoreArray(0)) scoreArray(0) = score
+    bubbleSort(scoreArray)
+    for(j <- 0 until 10) 
+      {
+      writer.println(scoreArray(j))
+      }
+    writer.close()
+  }
   
-  def bubbleSort(a : Array[Int]) // Basic very bad search algorithm
-   {
-       var swapped = false;
-       do{
-         swapped = false;
-         for(i <- 1 until a.length-1)
-         {
-            if(a(i-1) > a(i))
-            {
-               swapped = true;
-               var temp = a(i);
-               a(i) = a(i-1);
-               a(i-1) = temp;
-            }
-         }
-      } while(swapped)
-   }
+  def bubbleSort(a : Array[Int])
+  {
+// Outer loop executes n-1 times (passes)
+    for ( pass <- 1 until a.length)
+    { 
+      var swapped = false //checks to see if array is in order
+// Go through the array and check each pair
+// of consecutive elements; if they violate
+// the ascending order condition, swap them
+      for (i <- 0 until a.length - pass)//innermost loop executes on average n/2 times
+      {
+        if (a(i) > a(i + 1))
+        { 
+          swapped = true //array is not already in order
+          //swap elements
+          val temp = a(i)
+          a(i) = a(i + 1)
+          a(i + 1) = temp 
+        }
+      }
+ // If array is already in order, we are done
+      if (!swapped) return
+    }
+  }
 }
 
 

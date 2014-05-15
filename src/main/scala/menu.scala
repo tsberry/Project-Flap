@@ -9,7 +9,6 @@ class menu {
 var menuIsOn = true
 var scoresIsOn = false
 val pic = image("menu.jpg", 800, 600, 0, 0, 800, 600)
-val scores = Array[Int](10)
 render
 {
   if(menuIsOn || scoresIsOn) drawDisplayList(pic, windowCenter)
@@ -21,8 +20,8 @@ interface
   if(scoresIsOn) 
     {
       print("These are the scores", windowWidth/2, windowHeight/2, BLACK)
-      readScores()
-      for(i <- 0 until 9) print(scores(i), windowWidth/2, windowHeight/2 - 20*i, BLACK)
+      getScores()
+      for(i <- 0 until 10) print(scoreArray(i), windowWidth/2, windowHeight/2 -20 - 20*i, BLACK)
     }
 }
 
@@ -47,20 +46,13 @@ keyIgnorePause(KEY_J, onKeyDown =
     menuIsOn = false
     pauseOff()
   }
-})
-
-def readScores()
-{
-  val reader = new BufferedReader(new FileReader("scores.txt"))
-  var line = reader.readLine()
-  var i = 0
-  while(i < 10)
+  else if(collide)
   {
-    scores(i) = line.toInt
-    i += 1
-    line = reader.readLine()
+    collide = false
+    Flapper.reset()
+    ObstacleCreator.reset()
+    pause()
+    menuIsOn = true
   }
-  reader.close()
-}
-
+})
 }
