@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Thomas/workspace/FlappySat/}flappysat...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/}project-flap...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: project-flap#project-flap_2.10;0.0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for project-flap#project-flap_2.10;0.0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies project-flap#project-flap_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@577ed45[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f88d2ae[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -20,7 +20,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdon't use cache for com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT: changing=true[0m
 [0m[[0mdebug[0m] [0mdon't use cache for com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Thomas\.ivy2\local\com.github.dunnololda.scage\scage\0.9.3-SNAPSHOT\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /Users/NealSharma/.ivy2/local/com.github.dunnololda.scage/scage/0.9.3-SNAPSHOT/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0mdon't use cache for com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT: changing=true[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/dunnololda/scage/scage/0.9.3-SNAPSHOT/maven-metadata.xml[0m
@@ -47,7 +47,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.dunnololda#cli_2.10.1;1.2->ch.qos.logback#logback-classic;1.0.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Thomas\.ivy2\local\ch.qos.logback\logback-classic\1.0.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /Users/NealSharma/.ivy2/local/ch.qos.logback/logback-classic/1.0.0/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-classic;1.0.0[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-classic;1.0.0[0m
@@ -56,7 +56,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.0!logback-classic.pom(pom.original) (350ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.0!logback-classic.pom(pom.original) (252ms)[0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.0.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-parent;1.0.0[0m
@@ -65,7 +65,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.dunnololda#cli_2.10.1;1.2->ch.qos.logback#logback-classic;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@264774b1[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45826b5c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.0[0m
 [0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.0 in sbt-chain[0m
@@ -969,7 +969,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies project-flap#project-flap_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies project-flap#project-flap_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies project-flap#project-flap_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\project-flap\project-flap_2.10\0.0.1-SNAPSHOT\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/project-flap/project-flap_2.10/0.0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT!scage.jar[0m
@@ -992,19 +992,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6247ms :: artifacts dl 287ms[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT compile produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT runtime produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT test produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT provided produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT optional produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT compile-internal produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT runtime-internal produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT test-internal produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT plugin produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT sources produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT docs produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT pom produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT scala-tool produced in C:\Users\Thomas\workspace\FlappySat\target\resolution-cache\reports\project-flap-project-flap_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6247ms resolve - 287ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2979ms :: artifacts dl 17ms[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT compile produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT runtime produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT test produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT provided produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT optional produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT compile-internal produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT runtime-internal produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT test-internal produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT plugin produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT sources produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT docs produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT pom produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for project-flap#project-flap_2.10;0.0.1-SNAPSHOT scala-tool produced in /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/resolution-cache/reports/project-flap-project-flap_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2979ms resolve - 17ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

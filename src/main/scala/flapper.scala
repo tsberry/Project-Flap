@@ -43,10 +43,10 @@ class Flapper {
       velocity += (Vec(0, 25)), onKeyUp = velocity = (Vec(0, 0)))
  
   render {
-    if(player == 0) drawDisplayList(sat_image, coord) //keeps flapper and its image in sync
-    if(player == 1) drawDisplayList(thomas_image, coord)
-    if(player == 2) drawDisplayList(neal_image, coord)  
-    if(player == 3) drawDisplayList(pruski_image, coord)
+    if(player == 1) drawDisplayList(sat_image, coord) //keeps flapper and its image in sync
+    if(player == 2) drawDisplayList(thomas_image, coord)
+    if(player == 3) drawDisplayList(neal_image, coord)  
+    if(player == 4) drawDisplayList(pruski_image, coord)
   }
   
 action {

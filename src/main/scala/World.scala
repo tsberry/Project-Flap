@@ -39,7 +39,7 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   var flapX = Flapper.coord.x
   var menu = new menu()
   var collide = false //boolean flag used for handling collisions
-  var player = 2
+  var player = 1
   val sat_image = image("Sat.png", 70, 70,0,0,290,442)
   val thomas_image = image("Thomas.jpg", 70, 70,0,0,960,1280)
   val pruski_image = image("pruski.jpg", 70, 70,0,0,180,180)
@@ -87,20 +87,20 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   //Displays current score and will display the game-over message once the 
   //flapper has collided with an obstacle.
   interface{
-    if(!collide && !(menu.menuIsOn || menu.scoresIsOn)) 
+    if(!collide && !(menu.menuIsOn || menu.scoresIsOn || menu.choosePlayer)) 
     print((ObstacleCreator.point).toInt, 7*(windowWidth/8), 7*(windowHeight/8),
      BLACK)
     if(collide)
       {
       print("Game over! Your score was " + ObstacleCreator.point + 
-              " points", windowWidth/2- 200, windowHeight/2, BLACK)
+              " points", windowWidth/2-150, windowHeight/2+110, BLACK)
+      print("Press r to restart, or press m to return to the menu.",
+      windowWidth/2-230, windowHeight/2+70, BLACK)
       //print(scoreArray(0), windowWidth/2 - 200, windowHeight/2 - 20, BLACK)
-      
       }
-
   }
   
-  keyIgnorePause(KEY_A, onKeyDown =
+  keyIgnorePause(KEY_R, onKeyDown =
   {
     if(collide && !(menu.menuIsOn || menu.scoresIsOn))
     {
