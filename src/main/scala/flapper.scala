@@ -30,7 +30,6 @@ import World._
 //flap by using the space bar.
 
 class Flapper {
-  val flap_image = image("Sat.png", 70, 70,0,0,290,442)
   val width = 70
   val height = 70
   var coord = Vec(400,300)
@@ -44,7 +43,10 @@ class Flapper {
       velocity += (Vec(0, 25)), onKeyUp = velocity = (Vec(0, 0)))
  
   render {
-    drawDisplayList(flap_image, coord) //keeps flapper and its image in sync
+    if(player == 0) drawDisplayList(sat_image, coord) //keeps flapper and its image in sync
+    if(player == 1) drawDisplayList(thomas_image, coord)
+    if(player == 2) drawDisplayList(neal_image, coord)  
+    if(player == 3) drawDisplayList(pruski_image, coord)
   }
   
 action {

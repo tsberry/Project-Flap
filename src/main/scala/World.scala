@@ -39,6 +39,11 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   var flapX = Flapper.coord.x
   var menu = new menu()
   var collide = false //boolean flag used for handling collisions
+  var player = 2
+  val sat_image = image("Sat.png", 70, 70,0,0,290,442)
+  val thomas_image = image("Thomas.jpg", 70, 70,0,0,960,1280)
+  val pruski_image = image("pruski.jpg", 70, 70,0,0,180,180)
+  val neal_image = image("Neal.jpg", 70, 70,0,0,700,717)
   val scoreArray = Array(0,0,0,0,0,0,0,0,0,0)
   pause()
 //The following checks to see if the flapper is within the accepted bounds to 
@@ -97,7 +102,7 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   
   keyIgnorePause(KEY_A, onKeyDown =
   {
-    if(!(menu.menuIsOn || menu.scoresIsOn))
+    if(collide && !(menu.menuIsOn || menu.scoresIsOn))
     {
     Flapper.reset()
     ObstacleCreator.reset()
