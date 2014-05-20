@@ -2,30 +2,14 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/src/main/scala/World.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/src/main/scala/World.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/src/main/scala/World.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/scala-2.10/classes...[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 33d4f6b4, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/NealSharma/.sbt/boot/scala-2.10.3/lib/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/NealSharma/Documents/workspace/wherecodeis/Project-Flap/target/scala-2.10/classes:/Users/NealSharma/.ivy2/cache/com.github.dunnololda.scage/scage/jars/scage-0.9.3-SNAPSHOT.jar:/Users/NealSharma/.ivy2/cache/com.github.dunnololda/cli_2.10.1/jars/cli_2.10.1-1.2.jar:/Users/NealSharma/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.0.jar:/Users/NealSharma/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.0.jar:/Users/NealSharma/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar:/Users/NealSharma/.ivy2/cache/org.scala-lang/scala-swing/jars/scala-swing-2.10.1.jar:/Users/NealSharma/.ivy2/cache/org.lwjgl/lwjgl/jars/lwjgl-2.8.2.jar:/Users/NealSharma/.ivy2/cache/org.lwjgl/lwjgl-jinput/jars/lwjgl-jinput-2.8.2.jar:/Users/NealSharma/.ivy2/cache/org.lwjgl/lwjgl-native/jars/lwjgl-native-2.8.2.jar:/Users/NealSharma/.ivy2/cache/org.lwjgl/lwjgl-util/jars/lwjgl-util-2.8.2.jar:/Users/NealSharma/.ivy2/cache/slick/slick/jars/slick-274.jar:/Users/NealSharma/.ivy2/cache/phys2d/phys2d/jars/phys2d-060408.jar:/Users/NealSharma/.ivy2/cache/javax.jnlp/jnlp/jars/jnlp-1.2.jar:/Users/NealSharma/.ivy2/cache/ibxm/ibxm/jars/ibxm-unknown.jar:/Users/NealSharma/.ivy2/cache/jcraft/jogg/jars/jogg-0.0.7.jar:/Users/NealSharma/.ivy2/cache/jcraft/jorbis/jars/jorbis-0.0.15.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 4.167943 s[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set()[0m
-[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
-[0m[[0mdebug[0m] [0mNew invalidations:[0m
-[0m[[0mdebug[0m] [0m	Set()[0m
-[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m

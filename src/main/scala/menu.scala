@@ -65,15 +65,15 @@ interface
     if(player2Unlocked)
       print("Thomas - Press 2", windowWidth/2-165, windowHeight/2-60)
     else
-      print("Locked. Score 10!", windowWidth/2-165, windowHeight/2-60) 
+      print("Locked. Score 20!", windowWidth/2-165, windowHeight/2-60) 
     if(player3Unlocked)
       print("Neal - Press 3", windowWidth/2+40, windowHeight/2-60)
     else
-      print("Locked. Score 20!", windowWidth/2+40, windowHeight/2-60)
+      print("Locked. Score 40!", windowWidth/2+40, windowHeight/2-60)
     if(player4Unlocked)
       print("Pruski - Press 4", windowWidth/2+235, windowHeight/2-60)
     else
-      print("Locked. Score 30!", windowWidth/2+235, windowHeight/2-60)
+      print("Locked. Score 60!", windowWidth/2+235, windowHeight/2-60)
     if(player == 1)
       print("Sat selected!", windowWidth/2-350, windowHeight/2+60)
     if(player == 2)
@@ -123,11 +123,11 @@ keyIgnorePause(KEY_M, onKeyDown =
 keyIgnorePause(KEY_P, onKeyDown =
 {
   getScores()
-  if(scoreArray(9) >= 10)
-    player2Unlocked = true
   if(scoreArray(9) >= 20)
+    player2Unlocked = true
+  if(scoreArray(9) >= 40)
     player3Unlocked = true
-  if(scoreArray(9) >= 30)
+  if(scoreArray(9) >= 60)
     player4Unlocked = true
   if(choosePlayer)
   {
