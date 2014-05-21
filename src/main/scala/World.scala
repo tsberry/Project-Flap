@@ -39,7 +39,7 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
   var flapX = Flapper.coord.x
   var menu = new menu()
   var collide = false //boolean flag used for handling collisions
-  var player = 1
+  var player = 1 //keeps track of which player is chosen
   val sat_image = image("Sat.png", 70, 70,0,0,290,442)
   val thomas_image = image("Thomas.jpg", 70, 70,0,0,960,1280)
   val pruski_image = image("pruski.jpg", 70, 70,0,0,180,180)
@@ -99,7 +99,7 @@ object World extends ScageScreenApp("Project Flap", 800, 600){
       //print(scoreArray(0), windowWidth/2 - 200, windowHeight/2 - 20, BLACK)
       }
   }
-  
+//to restart the game from game over menu 
   keyIgnorePause(KEY_R, onKeyDown =
   {
     if(collide && !(menu.menuIsOn || menu.scoresIsOn))
