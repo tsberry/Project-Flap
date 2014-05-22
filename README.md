@@ -7,26 +7,37 @@ new high scores. You already loved Sat, but can you unlock the game's three SECR
 Controls: 
 On Menu: 
 Press H to view High Scores
+
 Press P to choose player
+
 Press S to start the game
 
 On High Score Screen:
+
 Press H to return to menu
 
 On Player Screen:
+
 Press 1-4 to select player (if unlocked)
+
 Press P to return to menu
 
 In game:
+
 Press Space to flap (that's it)
 
 On Game Over Screen:
+
 Press R to restart
+
 Press M to return to menu
 
 To compile Flappy Sat from source code:
+
 You will need:
+
 1. sbt (http://www.scala-sbt.org/)
+
 2. sbt-scage-plugin (https://github.com/mvallerie/sbt-scage-plugin)
 
 Once you have installed sbt and the scage plugin, clone/pull the repository. Navigate in terminal to the folder where the code is stored (the parent folder i.e.
